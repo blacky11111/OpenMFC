@@ -5,6 +5,7 @@ This library allows Linux/Mac user to compile cpp program created using Microsof
 		wxWidgets 2.8
 
 2. Compiling library :
+	
 	2.1. Setting up scripts :
 
 		chmod +x compilelib
