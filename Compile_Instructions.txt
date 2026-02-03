@@ -1,0 +1,22 @@
+1. Dependency : 
+		wxWidgets 2.8
+
+2. Compiling library :
+	2.1. Setting up scripts :
+
+		chmod +x compilelib
+		chmod +x install_lib
+		chmod +x uninstall_lib
+
+	2.2. Compile lib :
+
+		./compilelib
+
+	2.3. Install lib (requires superuser) :
+
+		su
+		./install_lib
+
+2. Program compiling example :
+
+g++ `wx-config --cxxflags` -o "realGUIApp_windows" "realGUIApp_windows.cpp" -lopenMFC `wx-config --libs`
