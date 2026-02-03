@@ -21,6 +21,12 @@ This library allows Linux/Mac user to compile cpp program created using Microsof
 		su
 		./install_lib
 
-2. Program compiling example (examples located in folder "tes_program"):
+3. Program compiling example (examples located in folder "tes_program"):
 
 g++ \`wx-config --cxxflags\` -o "realGUIApp_windows" "realGUIApp_windows.cpp" -lopenMFC \`wx-config --libs\`
+
+4. Run the program :
+   
+   		./realGUIApp_windows
+   
+<img width="437" height="459" alt="MFC" src="https://github.com/user-attachments/assets/abfc6fd0-c0f0-4d3f-896c-b3be79a2f188" />
