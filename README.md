@@ -23,4 +23,4 @@ This library allows Linux/Mac user to compile cpp program created using Microsof
 
 2. Program compiling example (examples located in folder "tes_program"):
 
-g++ `wx-config --cxxflags` -o "realGUIApp_windows" "realGUIApp_windows.cpp" -lopenMFC `wx-config --libs`
+g++ ``wx-config --cxxflags`` -o "realGUIApp_windows" "realGUIApp_windows.cpp" -lopenMFC ``wx-config --libs``
