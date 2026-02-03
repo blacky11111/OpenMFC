@@ -28,9 +28,6 @@ void CString::Format(const wxChar* format, ...) {
 	this->PrintfV(format, argList);
 	va_end(argList);
 }
-// Global helpers for Program 1
-//~ inline double _tstof(const wxString& s) { return wxAtof(s); }
-//~ inline int _ttoi(const wxString& s) { return wxAtoi(s); }
 
 // ============================================================================
 // 3. Dasar Geometri & Font
@@ -44,15 +41,6 @@ int CRect::Height() const { return height; }
 
 
 CPen::CPen(int style, int width, const wxColour& color) : wxPen(color, width, style) {}
-
-
-//~ class CDC {
-//~ public:
-    //~ virtual ~CDC() {}
-    //~ virtual void SelectObject(wxPen* pen) = 0;
-    //~ virtual void MoveTo(int x, int y) = 0;
-    //~ virtual void LineTo(int x, int y) = 0;
-//~ };
 
 
 CPaintDC::CPaintDC(wxWindow* win) : wxPaintDC(win) { m_x = 0; m_y = 0; }
