@@ -1,0 +1,8 @@
+#
+# object files for shared libraries need to be compiled as position independent
+# code (-fPIC) because they are mapped to any position in the address space.
+#
+
+g++ `wx-config --cxxflags` -c -fPIC afxwin.cpp COleCurrency.cpp afxcmn.cpp afxext.cpp `wx-config --libs`
+# Create shared lib
+g++ -shared afxwin.o COleCurrency.o afxcmn.o afxext.o -o libopenMFC.so

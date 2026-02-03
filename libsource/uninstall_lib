@@ -1,0 +1,6 @@
+rm /usr/include/afxwin.h
+rm /usr/include/COleCurrency.h
+rm /usr/include/afxcmn.h
+rm /usr/include/afxext.h
+rm /usr/lib/libopenMFC.so
+ldconfig
