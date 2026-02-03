@@ -1,10 +1,10 @@
-#include <wx/wxprec.h> // Precompiled headers
+#include <wx/wxprec.h> 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
 #endif
 
 #include "afxwin.h"
-#include <wx/app.h> // Pastikan header spesifik app disertakan
+#include <wx/app.h> 
 
 // ============================================================================
 // 2. CString CLASS - Ambiguity-Free Version
